@@ -39,7 +39,7 @@ jobs:
           envs: DOCKERHUB_USERNAME
           script: |
             if [ ! -d ~/docker-cicd ]; then
-              git clone https://github.com/xenosign/docker-cicd
+              git clone https://github.com/kht9938/docker-cicd.git
             fi
             cd ~/docker-cicd
             git pull origin main
